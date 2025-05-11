@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Instagram</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1>Cadastre-se no Instagram</h1>
+      <form id="registerForm">
+        <div class="input-group">
+          <label for="username">Nome de Usuário</label>
+          <input type="text" id="username" name="username" placeholder="Nome de usuário" required>
+        </div>
+
+        <div class="input-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="E-mail" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password" placeholder="Senha" required>
+        </div>
+
+        <div class="input-group">
+          <label for="confirmPassword">Confirmar Senha</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmar Senha" required>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+
+      <p class="login-link">Já tem uma conta? <a href="#">Entrar</a></p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script> <!-- Link para o arquivo JS -->
+</body>
+</html>
