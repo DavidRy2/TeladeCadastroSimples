@@ -10,8 +10,6 @@ document.getElementById("registerForm").addEventListener("submit", function(even
     return;
   }
   
-  // Aqui, você pode adicionar a lógica para enviar os dados de cadastro para o servidor
   alert("Cadastro realizado com sucesso!");
-  // Limpar o formulário após o envio bem-sucedido
   event.target.reset();
 });
